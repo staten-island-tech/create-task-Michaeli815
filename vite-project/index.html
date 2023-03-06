@@ -7,7 +7,28 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    
+    <header class="header">
+      <h1 class="header-title">Monty Hall Game Show</h1>
+    </header>
+
+    <div class="cardcontainer">
+   
+      <div class="cards">
+        <div id="card1" class="card">
+          <img class="d1" src="public/red-door-cartoon-illustration-vector_123847-3270.avif" width="75%">
+          <button id="wrongd1" class="select" class="b1">SELECT</button>
+        </div>
+        <div id="card2" class="card">
+            <img class="d2" src="public/red-door-cartoon-illustration-vector_123847-3270.avif" width="75%">
+          <button id="wrongd2" class="select" class="b2">SELECT</button></div>
+        <div  id="card3" class="card">
+            <img class="d3" src="public/red-door-cartoon-illustration-vector_123847-3270.avif" width="75%">
+          <button id="correctd" class="select" class="b3">SELECT</button></div>
+          <p></p>
+      </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="css/style.css"></script>
   </body>
 </html>
