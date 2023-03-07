@@ -30,7 +30,7 @@ DOMSelectors.b1.addEventListener("click", function () {
     DOMSelectors.card2.insertAdjacentHTML(
       "beforeend",
       `
-  <img class="d2" src="Screenshot 2023-03-05 234106.png" width="70%">`
+  <img class="d2" src="goat.png" width="70%">`
     );
     DOMSelectors.b1.remove();
     DOMSelectors.b2.remove();
