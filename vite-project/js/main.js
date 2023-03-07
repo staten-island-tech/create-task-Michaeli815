@@ -245,7 +245,7 @@ DOMSelectors.b1.addEventListener("click", function () {
   }
 });
 
-documents
+document
   .querySelector(".cardcontainer")
   .addEventListener("click", function (event) {
     if (event.target.matches(".again")) {
