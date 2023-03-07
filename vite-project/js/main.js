@@ -58,7 +58,7 @@ DOMSelectors.b2.addEventListener("click", function () {
     DOMSelectors.card1.insertAdjacentHTML(
       "beforeend",
       `
-    <img class="d2" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+    <img class="d2" src="public/goat.png" width="70%">`
     );
     DOMSelectors.b1.remove();
     DOMSelectors.b2.remove();
@@ -86,7 +86,7 @@ function selected3() {
       DOMSelectors.card2.insertAdjacentHTML(
         "beforeend",
         `
-    <img class="d2" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+    <img class="d2" src="public/goat.png" width="70%">`
       );
       DOMSelectors.b1.remove();
       DOMSelectors.b2.remove();
@@ -117,12 +117,12 @@ DOMSelectors.b3.addEventListener("click", function () {
       DOMSelectors.card1.insertAdjacentHTML(
         "afterbegin",
         `
-      <img class="d3" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+      <img class="d3" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-      <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+      <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -136,12 +136,12 @@ DOMSelectors.b3.addEventListener("click", function () {
       DOMSelectors.card1.insertAdjacentHTML(
         "afterbegin",
         `
-          <img class="d1" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+          <img class="d1" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-          <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+          <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -162,12 +162,12 @@ DOMSelectors.b2.addEventListener("click", function () {
       DOMSelectors.card2.insertAdjacentHTML(
         "afterbegin",
         `
-        <img class="d3" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+        <img class="d3" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-        <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+        <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -183,12 +183,12 @@ DOMSelectors.b2.addEventListener("click", function () {
       DOMSelectors.card2.insertAdjacentHTML(
         "afterbegin",
         `
-            <img class="d1" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+            <img class="d1" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-            <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+            <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -207,12 +207,12 @@ DOMSelectors.b1.addEventListener("click", function () {
       DOMSelectors.card1.insertAdjacentHTML(
         "afterbegin",
         `
-          <img class="d3" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+          <img class="d3" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-          <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+          <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -229,12 +229,12 @@ DOMSelectors.b1.addEventListener("click", function () {
       DOMSelectors.card1.insertAdjacentHTML(
         "afterbegin",
         `
-              <img class="d1" src="public/Screenshot 2023-03-05 234106.png" width="70%">`
+              <img class="d1" src="public/goat.png" width="70%">`
       );
       DOMSelectors.card3.insertAdjacentHTML(
         "afterbegin",
         `
-              <img class="d3" src="public/Screenshot 2023-03-06 002619.png" width="70%">`
+              <img class="d3" src="public/lambo.png" width="70%">`
       );
       document.querySelector("#wrongd").remove();
       document.querySelector("#correctd").remove();
@@ -245,7 +245,7 @@ DOMSelectors.b1.addEventListener("click", function () {
   }
 });
 
-document
+documents
   .querySelector(".cardcontainer")
   .addEventListener("click", function (event) {
     if (event.target.matches(".again")) {
